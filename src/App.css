@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f6f7;
+  font-family: 'Poppins', sans-serif;
+}
+.main__container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.main__container-heading {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.main__container-subheading {
+  font-size: 24px;
+  color: #333;
+}
+.main__container-input {
+  width: 100%;
+  border: 1px solid #cccc;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: 6px 0;
+}
+.main__container-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 6px;
+}
+
+.main__container-button:hover {
+  background-color: #555;
+}
+
+.add__contact_container-input {
+  width: 100%;
+  margin: 24px 0;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
+}
+
+.contact_list_container {
+  width: 100%;
+  margin: 24px 0;
+  padding: 12px;
+}
+
+.contact__item-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__detail {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+
+  width: 100%;
+  border-radius: 12px;
+  margin: 12px 0;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.contact__detail:hover {
+  transform: translate(0px, -5px);
+}
+.contact__detail-contact {
+  align-items: center;
+  display: flex;
+}
+
+.contact__detail-person {
+  margin: 0 12px;
+}
+
+.contact__button {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 6px;
+  align-self: center;
+}
+
+.contact__button:hover {
+  background-color: #555;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
